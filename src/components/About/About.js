@@ -26,14 +26,14 @@ function About() {
             그 경험을 통해 일본 현지에서 단편영화를 촬영하며, <br></br>
             한-일간의 콘텐츠 협력제작의 스페셜리스트가 될 준비를 마쳤습니다.<br></br>
             <br></br>
-            또한 졸업 후에는 프리랜서로서 NHK, TV朝日 등의 일본 방송국의 <br></br>
+            또한 졸업 후에는 프리랜서로서 NHK, TV朝日 등의 일본 방송국의<br></br>
             한국 내 촬영에 협력하며 실질적인 경험을 쌓았습니다.
 
           </div>
-          <div className="AboutBio tagline2">
+          <div className="AboutBio tagline2" style={{textAlign: 'left'}}>
             <strong>학력</strong><br></br>
-             2017.03 ~ 2024.08 서경대학교 영화영상학과, 글로벌비즈니스어학부 일본어전공 졸업<br></br>
-             2014.03 ~ 
+             2017.03 ~ 2024.08 | <strong>서경대학교</strong> 영화영상학과, 글로벌비즈니스어학부 일본어전공 졸업<br></br>
+             2014.03 ~ 2017.02 | <strong>경기영상과학고등학교</strong> 방송영상연출과 졸업
           </div>
          <Technologies>
             {stackList.map((stack, index) => (

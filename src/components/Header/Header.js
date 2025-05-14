@@ -7,7 +7,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/logo.png"
+            src="https://i.postimg.cc/Gh2d47SJ/nagi-logo.png"
             alt="logo"
           />
         </Logo>
@@ -25,7 +25,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://github.com/gurupawar/"
+            href="https://drive.darak.pictures/d/s/13M2OTKAP2a8xQubtrkxouwKat6hBE3Y/uz1UxhFuR1HosU0MuRKJOXcR_TUfNexq-f7CAAn0qRww" //공유용 이력서 링크
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -99,6 +99,20 @@ export const ProjectList = [
       "단편영화 「절」 (2020) 촬영 \n단편영화 「클린업」 (2022) 제작 \n단편영화 「중고나라」 (2016) 연출,제작,편집\n단편영화 「밥은 혼자 먹어야 제맛」 (2015) 연출,편집 \n단편영화 「이사」 (2015) 촬영",      
     genre: "단편영화",
     tech_stack: "연출, 제작, 촬영, 편집",
+    noModal: true,
+    noGenre: true,
+    noTechStack: true,
+  },
+  {
+    img: "https://www.nhk.jp/static/assets/images/tvepisode/te/YX6GKKNGN4/YX6GKKNGN4-eyecatch_59dc0ccca0b522a3e41457c361357c55.jpg",
+    title: "방송촬영",
+    description:
+      "NHK ニュース (2024.12.06)\nNHK クローズアップ現代 (2024.12.18)\nNHK 国際報道 2025 (2025.04.18)\nテレ朝 '韓国 尹大統領の罷免決定　厳戒態勢続く現地は…'(2025.04.04)\nテレ朝 '韓国・憲法裁判所「国民の信頼を裏切った」　尹大統領「罷免」判決'(2025.04.04)\n \n등 일본 방송국 한국 국내 촬영",      
+    genre: "단편영화",
+    tech_stack: "연출, 제작, 촬영, 편집",
+    noModal: true,
+    noGenre: true,
+    noTechStack: true,
   },
 ];
 
@@ -106,35 +120,28 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
-    name: "HTML",
+    img: "https://i.postimg.cc/CMB6tQJd/japan-flag-circular-17764.png",
+    name: "JLPT N1",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
-    name: "CSS",
+    img: "https://i.postimg.cc/gj8s01BD/video-camera-2806.png",
+    name: "Cinema Camera",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/javascript.svg",
-    name: "JavaScript",
+    img: "https://i.postimg.cc/gj8s01BD/video-camera-2806.png",
+    name: "6mm Camera",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
-    name: "ReactJS",
+    img: "https://i.postimg.cc/5ydGpBhs/camera-1429.png",
+    name: "DSLR",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
-    name: "Bootstrap",
+    img: "https://help.apple.com/assets/673BE5C0E115654F7F097772/673BE5C41BAE7922D30F2CE1/ko_KR/97f5f4dfe6df84d78caacff68ec63538.png",
+    name: "Final cut",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/sass.svg",
-    name: "Scss",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/130px-DaVinci_Resolve_17_logo.svg.png?20211228192035",
+    name: "Davinci resolve",
   },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
-    name: "Git",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
-    name: "Responsive",
-  },
+
 ];

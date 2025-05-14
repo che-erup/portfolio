@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ProjectList } from "../../../data/ProjectData";
+import { ProjectList } from "../../../data/BroadcastingData";
 import {
   Card,
   CardLeft,
@@ -35,41 +35,35 @@ function ProjectCard() {
     ))}
               
             </p>
-            {!list.noGenre && (
-             <p><strong>장르:</strong> {list.genre}</p>
-)}
-
-            {!list.noTechStack && (
-          <Stack>
-            <span className="stackTitle">역할 -</span>
-            <span className="tags">{list.tech_stack}</span>
-          </Stack>
-)}
+            <p><strong>장르 - </strong> {list.genre}</p>
+            <Stack>
+              <span className="stackTitle"><strong>역할 -</strong></span>
+              <span className="tags">{list.tech_stack}</span>
+            </Stack>
             <BtnGroup>
-            {!list.noModal && (
-
-/* 
-  상세정보 버튼
+{/* 상세정보 버튼
               <button
                 className="btn btn2 SecondarBtn"
                 onClick={() => handlePopupOpen(list)}
               >
                 상세정보
               </button>
-*/
+*/}
               <button
                 className="btn PrimaryBtn"
-                onClick={() => handlePopupOpen(list)}
+                onClick={() => {
+                  window.open(list.modal.page, "_blank", "noopener,noreferrer");
+                  // handlePopupOpen(list); // 모달은 더이상 열지 않지만, 로직은 남겨둠
+                }}
               >
-                영상 보기
+                기사 보기
               </button>
-               )}
             </BtnGroup>
           </CardRight>
         </Card>
       ))}
 
-      {popupData && popupData.modal && popupData.modal.video && (
+      {popupData && (
         <div className="popupOverlay" onClick={handlePopupClose} style={{
           position: "fixed", top: 0, left: 0, width: "100%", height: "100%",
           backgroundColor: "rgba(0, 0, 0, 0.5)", display: "flex",
@@ -81,7 +75,7 @@ function ProjectCard() {
             <iframe
               width="100%"
               height={window.innerWidth >= 768 ? "500" : "300"}  // JS에서 조건부로 조절
-              src={popupData.modal.video}
+              src={popupData.modal.page}
               title="영상"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
