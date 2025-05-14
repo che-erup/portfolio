@@ -15,12 +15,17 @@ export const Card = styled.div`
 `;
 
 export const CardLeft = styled.div`
+  display: inline-block;          // ✅ 이미지 크기에 맞추기 위해 추가  
   background: #151418;
   border-radius: 5px;
   padding: 5px;
+  height: fit-content;            // ✅ 내용 크기만큼만
+  aspect-ratio: 16 / 9;               // ✅ 비율 고정
   justify-self: center;
 
   img {
+    display: block;               // ✅ 아래쪽 여백 제거
+    width: 100%;                  // ✅ 영역 안에서 꽉 차게
     border-radius: 3px;
     height: auto;
   }

@@ -15,7 +15,7 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Send Mail
+              메일 보내기
             </a>
           </Email>
         </div>
