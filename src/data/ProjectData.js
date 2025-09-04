@@ -1,9 +1,9 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "https://i.postimg.cc/BbqPNbgC/diaspora-thumb.webp",
-    title: "음악 디깅 유튜브,
-    description: "인디 음악을 대중들에게 소개하는 유튜브 채널\n",
+    img: "https://i.postimg.cc/FzSPbZH9/image.png",
+    title: "음악 디깅 유튜브",
+    description: "인디 음악을 대중들에게 소개하는 유튜브 채널",
     tech_stack: "조사(100%), 기획(100%), 편집(100%), 그래픽(100%)",
     genre: "유튜브",
     /* 
